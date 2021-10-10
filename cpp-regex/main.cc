@@ -38,7 +38,7 @@ int main()
     cout << "Enter the regex rule [" << current_regex_input <<"]: ";
     std::getline(cin, regex_input);
     if (regex_input=="")
-      regex_input = current_word_input;
+      regex_input = current_regex_input;
 
     if (is_valid_regex_string(regex_input))
     {
